@@ -439,8 +439,9 @@ Navbar Area CSS
   font-weight: 600;
   padding-right: 0;
   padding-left: 0;
-  padding-top: 0;
+  padding-top: 10px;
   padding-bottom: 0;
+  height: 40px;
 }
 
 .navbar-light .navbar-nav .nav-item .nav-link::before {
@@ -449,8 +450,8 @@ Navbar Area CSS
   bottom: 0;
   right: 0;
   width: 0;
-  height: 1.5px;
-  background: #000000;
+  height: 2px;
+  background: #b31919;
   opacity: 0;
   visibility: hidden;
   -webkit-transition: 0.5s;
@@ -683,11 +684,12 @@ Main Banner Area CSS
   border: 5px solid #ffffff;
 }
 
-.hero-content span {
+.hero-content .img-title {
   display: block;
   color: #ffffff;
   font-family: "Poppins", sans-serif;
   font-size: 17px;
+  float: left;
 }
 
 .hero-content .title {
@@ -716,6 +718,7 @@ Main Banner Area CSS
   font-family: "Poppins", sans-serif;
   display: block;
   color: #ffffff;
+  float: left;
 }
 
 /*================================================
