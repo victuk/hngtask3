@@ -479,8 +479,32 @@ Navbar Area CSS
 }
 
 .image-1{
-  background-image: url(../img/room\ 1.png);
-  border-radius: 0px 20px;
+  background-image: url(../img/room-1.png);
+  background-repeat:  no-repeat;
+  height: 310px;
+  width: 600px;
+  border-radius: 50px 0px 50px 0px;
+  background-size: contain;
+}
+
+.image-2{
+  background-image: url(../img/room-3.png);
+  background-repeat:  no-repeat;
+  height: 310px;
+  width: 600px;
+  border-radius: 50px 0px 50px 0px;
+  background-size: contain;
+}
+.reverseme{
+  display: flex;
+  flex-direction: row-reverse;
+}
+.image-3{
+  background-image: url(../img/room-4.png);
+  background-repeat:  no-repeat;
+  height: 310px;
+  width: 600px;
+  border-radius: 50px 0px 50px 0px;
   background-size: contain;
 }
 
@@ -683,7 +707,7 @@ Main Banner Area CSS
   position: relative;
   z-index: 1;
   background-color: #000000;
-  background-image: url(../img/room\ 3.png);
+  background-image: url(../img/room-3.png);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
