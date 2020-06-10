@@ -219,11 +219,6 @@ p:last-child {
   font-family: Arial, Helvetica, sans-serif;
 }
 
-.redActButton{
-  background-color: red;
-  border: none;
-}
-
 /*form-control */
 .form-control {
   height: 35px;
