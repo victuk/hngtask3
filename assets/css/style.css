@@ -466,11 +466,27 @@ Navbar Area CSS
   right: 0;
   width: 0;
   height: 2px;
-  background: #b31919;
+  background: #FF3333;
   opacity: 0;
   visibility: hidden;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+}
+
+.chkOurRooms{
+  font-size: smaller;
+  color: #FF3333;
+}
+
+.image-1{
+  background-image: url(../img/room\ 1.png);
+  border-radius: 0px 20px;
+  background-size: contain;
+}
+
+.chkOurRoomsLine{
+  width: 80px;
+  height:10px;
 }
 
 .navbar-light .navbar-nav .nav-item .nav-link:hover::before, .navbar-light .navbar-nav .nav-item .nav-link.active::before {
