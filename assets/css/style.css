@@ -70,7 +70,7 @@ img {
 p {
   margin-bottom: 15px;
   line-height: 1.7;
-  color: #000000;
+  color: #ffffff;
   font-size: 16px;
 }
 
@@ -210,6 +210,12 @@ p:last-child {
           box-shadow: none;
   background-color: #ffffff;
   color: #000000;
+}
+
+.container .whiteBag{
+  color: white;
+  font-size: 60px;
+  font-weight: bolder;
 }
 
 /*form-control */
@@ -652,7 +658,7 @@ Main Banner Area CSS
   position: relative;
   z-index: 1;
   background-color: #000000;
-  background-image: url(../img/main-banner1.jpg);
+  background-image: url(../img/room\ 3.png);
   background-position: center center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -669,6 +675,7 @@ Main Banner Area CSS
   left: 0;
   bottom: 0;
 }
+
 
 .hero-content {
   text-align: center;
